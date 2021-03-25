@@ -5,11 +5,24 @@ en:
       category:
         one: Category
         others: Categories
+      task:
+        one: Task
+        others: Tasks
   categories:
     form:
       description: Description
       name: Name
-    new_category: Nueva Categoría
+    new_category: New Category
   common:
     back: back
   hello: Hello world
+  task:
+    errors:
+      invalid_due_date: Invalid due date
+  tasks:
+    form:
+      category: Category
+      description: Description
+      due_date: Due date
+      name: Name
+    new_task: New task
