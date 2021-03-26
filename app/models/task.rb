@@ -12,6 +12,7 @@
 #
 class Task < ApplicationRecord
   belongs_to :category
+  belongs_to :owner, class_name: "User"
 
   validates :name, :description, :category_id, presence: true
   validates :name, uniqueness: { case_sensitive: false}
