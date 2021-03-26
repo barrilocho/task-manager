@@ -15,6 +15,7 @@ en:
     new_category: New Category
   common:
     back: back
+    logout: "Logout"
   hello: Hello world
   task:
     errors:
