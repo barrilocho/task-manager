@@ -14,8 +14,12 @@ en:
       name: Name
     new_category: New Category
   common:
+    are_you_sure: Are you sure
     back: back
-    logout: "Logout"
+    destroy: Destroy
+    edit: Edit
+    logout: Logout
+    show: Show
   hello: Hello world
   task:
     errors:

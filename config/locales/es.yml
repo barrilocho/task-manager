@@ -14,8 +14,12 @@ es:
       name: Nombre
     new_category: Nueva Categoría
   common:
+    are_you_sure: Are you sure
     back: Atras
+    destroy: Destroy
+    edit: Edit
     logout: Cerrar sesión
+    show: Show
   hello: Hello world
   task:
     errors:
