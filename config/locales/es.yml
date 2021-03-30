@@ -14,13 +14,13 @@ es:
       name: Nombre
     new_category: Nueva Categoría
   common:
-    are_you_sure: Are you sure
+    are_you_sure: Estas seguro
     back: Atras
-    destroy: Destroy
-    edit: Edit
+    destroy: Eliminar
+    edit: Editar
     logout: Cerrar sesión
-    show: Show
-  hello: Hello world
+    show: Ver
+  hello: Hola mundo
   task:
     errors:
       invalid_due_date: La fecha no puede ser anterior a hoy
