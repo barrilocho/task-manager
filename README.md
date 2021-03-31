@@ -1,24 +1,44 @@
-# README
+# Task manager app
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+This is a simple solution for a task manager built with ruby on rails, you can create, update and delete task by categories and add participants for those task, tasks also have a due date and a email will be send when a task is created.
 
-Things you may want to cover:
+## Installation
+
+Use bundle-install for install the dependencies specified in Gemfile
+
+```bash
+bundle install
+```
+Then install js dependencies with yarn
+
+```bash
+yarn install
+```
+## Run project 
+
+To start the development server 
+
+```bash
+rails server
+```
+ To generate seeders run
+
+ ```bash
+rails db:seeders
+```
+
+Things you may want to consider:
 
 * Ruby version
-
-* System dependencies
+  * ruby "3.0.0"
 
 * Configuration
+  * Database: Postgresql
 
-* Database creation
+## Contributing
+Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
 
-* Database initialization
+Please make sure to update tests as appropriate.
 
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+## License
+[MIT](https://choosealicense.com/licenses/mit/)
