@@ -29,5 +29,6 @@ es:
       category: Categoría
       description: Descripción
       due_date: Fecha final
+      estimated_time: Tiempo estimado (segundos)
       name: Nombre
     new_task: Nueva Tarea

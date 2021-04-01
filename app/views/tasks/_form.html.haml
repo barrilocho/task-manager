@@ -8,6 +8,7 @@
     = f.input :description, label: t('.description')
     = f.input :due_date, label: t('.due_date')
     = f.association :category, label: t('.category')
+    = f.input :estimated_time, label: t('.estimated_time')
     %h3 Participantes
     #addParticipants
       = link_to_add_association f, :participating_users, 'data-association-insertion-node' => '.participants .participants-container', 'data-turbolinks' => false do
